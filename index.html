@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Racing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="side left-side">
+      <div class="tree"></div>
+      <div class="tree"></div>
+      <div class="house"></div>
+      <div class="tree"></div>
+    </div>
+    <div class="road">
+      <div id="car"></div>
+    </div>
+    <div class="side right-side">
+      <div class="house"></div>
+      <div class="tree"></div>
+      <div class="house"></div>
+      <div class="tree"></div>
+    </div>
+  </div>
+  <div class="controls">
+    <button onclick="moveLeft()">◀</button>
+    <button onclick="moveUp()">▲</button>
+    <button onclick="moveDown()">▼</button>
+    <button onclick="moveRight()">▶</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
